@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Etch-a-Sketch</title>
+    <link rel='stylesheet' href='easStyle.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='controlPanel'>
+        <h1>Etch-a-Sketch</h1>
+        <p>Enter the number of rows and columns</p>
+        <input id='textBox' type='text' value=''><br>
+        <button id='submit'>Create</button>
+        <a href=''><button id = 'reset' >Reset Grid</button></a>
+    </div>
+    <div id='container'></div>
+    <div id='instructions'>
+        <h3>Instructions</h3>
+        <ul>
+            <li>Enter the size of grid you want.(Example: 64 for a 64x64 grid.)</li>
+            <li>Only supports upto 100x100.</li>
+            <li>Click the Create Grid button to generate the desired sized grid.</li>
+            <li>Click Reset Grid to reset it to the default.</li>
+        </ul>
+    </div>
+</body>
+<script src='easScript.js'></script>
+
+</html>
